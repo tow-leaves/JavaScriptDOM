@@ -1,0 +1,132 @@
+body{
+	margin: 1em 10%;
+	padding: 0;
+	font-family: "Helvetica","Arial",sans-serif;
+	font-size: 1em;
+	background-image: url(../images/background.gif);
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: top left;
+	background-color: #334;
+}
+
+#home .head{
+	background-image: url(../images/guitarist.gif);
+}
+#about .head{
+	background-image: url(../images/lineup.gif);
+}
+#photos .head{
+	background-image: url(../images/basshead.gif);
+}
+#live .head{
+	background-image: url(../images/bassist.gif);
+}
+#contact .head{
+	background-image: url(../images/drummer.gif);
+}
+
+.head{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #334;
+	color: #ec8;
+	border: 0.1em solid #667;
+	overflow: hidden;
+}
+.nav{
+	padding-left: 10%;
+	background-color: #789;
+	border-left: 0.1em solid #667;
+	border-right: 0.1em solid #667;
+	overflow: hidden;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	list-style: disc;
+	float: left;
+	border-left: 0.1em solid #99a;
+}
+.nav ul li{
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+.nav ul li a{
+	padding: 0.5em 2em;
+	display: block;
+	float: left;
+	color: #eef;
+	font-weight: bold;
+	text-decoration: none;
+	border-right: 0.1em solid #99a;
+}
+.nav a.here:link,.nav a.here:hover{
+	color: #eef;
+	background-color: #799;
+}
+.nav ul li a:hover{
+	color: #345;
+	background-color: #eb6;
+}
+.centent{
+	margin: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+	color: #223;
+	background-color: #edc;
+	border: 0.1em solid #667;
+	border-top: none;
+}
+.centent p{
+	margin: 1em 0;
+}
+.centent a{
+	text-decoration: none;
+	color: #445;
+	background-color: #eb6;
+	font-weight: bold;
+}
+.centent a:hover{
+	color: #235;
+}
+#show{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+}
+#frame{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+#preview{
+	position: absolute;
+}
+
+/*photos*/
+#imagegallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+#imagegallery li{
+	margin-right: 5px;
+	padding: 0;
+	float: left;
+}
+#imagegallery a{
+	background-color: #edc;
+}
+
+label{
+	display: block;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact the band</title>
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
+</head>
+<body>
+	<div id="contact">
+		<div class="head">
+			<img src="images/logo.gif">
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="live.html">Live</a></li>
+					<li><a href="contact.html" class="here">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="centent">
+			<h2>Contact the band</h2>
+			<form method="post" action="submit.html">
+				<p>
+					<label>Name:</label>
+					<input type="text" name="name" id="name" placeholder="Your name" required="required">
+				</p>
+				<p>
+					<label>Email:</label>
+					<input type="email" name="email" id="email" placeholder="Your email address" required="required">
+				</p>
+				<p>
+					<label>Message:</label>
+					<textarea cols="45" rows="7" id="message" placeholder="Write your message here." required="required"></textarea>
+				</p>
+				<input type="submit" name="submit" value="Send">
+			</form>
+		</div>
+		<script src="scripts/home.js"></script>
+	</div>
+</body>
+</html>
