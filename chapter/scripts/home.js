@@ -168,6 +168,7 @@ function showPic (whichpic){
 	if(!document.getElementById) return false;
 	if(!document.getElementById("pic")) return false;
 	var source = whichpic.getAttribute("href");
+	if(source.length == 0) return false;
 	var pic = document.getElementById("pic");
 	pic.setAttribute("src",source);
 	if (document.getElementById("description")){
