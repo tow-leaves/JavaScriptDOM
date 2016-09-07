@@ -165,10 +165,8 @@ function Pic (){
 }
 
 function showPic (whichpic){
-	if(!document.getElementById("pic")) return false;
 	var source = whichpic.getAttribute("href");
 	var pic = document.getElementById("pic");
-	if(pic.nodeName != "IMG") return false;
 	pic.setAttribute("src",source);
 	if (document.getElementById("description")){
 		if (whichpic.getAttribute("title")){
